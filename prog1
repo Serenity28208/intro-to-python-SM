@@ -1,0 +1,34 @@
+#user name for user
+userName = input('What is your name? ')
+#grocery costs
+egg = (2.89)
+groundBeef = (5.98)
+chips = (2.50)
+chocolateBar = (1.89)
+cucumber = (0.39)
+cookingOil = (6)
+
+# user interecation 
+print('egg cost 2.89.')
+numEgg = int(input('How many dozen egg do you want?'))
+
+print('ground beef cost : 5.98')
+numGroundBeef = int(input('how many ground beef do you want?'))
+
+print('chip cost : 1.89')
+numChip = int(input(' how many bags of chip would u like '))
+
+print('chocolate bar : 1.89 ')
+numChocolatebar = int(input('how many bar of chocolate would u like'))
+
+print('cucumber cost : 0.39')
+numCucumber = int(input('how many cucmber would u like '))
+
+print('cooking oil : 6.00')
+numCookingoil = int(input('how many cooking oil would u like '))
+
+#calculation - 
+Total = (numEgg = + numGroundBeef + numChip + numChocolatebar + numCucumber + numCookingoil)
+Total = str(Total)
+#tells us the totoal
+print("Hi, " + userName + "." + "Your total is " + Total)
